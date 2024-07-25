@@ -1,0 +1,87 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+  }
+  .buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .updating {
+    margin: 3em;
+    text-align: center;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    margin-top: 100px;
+  }
+  
+  .bouncing-text {
+    font-size: 36px;
+    color: #333;
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  #playButton {
+    background-color: #10b515;
+    color: rgb(0, 0, 0);
+   
+  }
+  
+  #playButton:hover {
+    font-weight: bold;
+    color: rgb(207, 6, 23);
+    background-image: url('happydog.jpeg'); /* Replace 'happydog.jpg' with your image path */
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  #noButton {
+    background-color: #f44336;
+    color: white;
+
+  }
+  
+  #noButton:hover {
+    font-weight: bold;
+    color: rgb(207, 6, 23);
+    background-image: url('sad2.png'); /* Replace 'happydog.jpg' with your image path */
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-position 5s ease-in-out;
+  }
+  
+  
