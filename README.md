@@ -1,3 +1,2 @@
 # PROJECTS
-Hello!
-A few projects I made as a beginner..
+Help a dog find its home solving a maze!!
